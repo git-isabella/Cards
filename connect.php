@@ -3,11 +3,7 @@ function connect_db() {
  $servername = "localhost";
  // EDIT HERE YOUR USERNAME AND PASSWORD
  $username = "a1800565";
-<<<<<<< HEAD
- $password = "saPA4G62s";
-=======
  $password = "password";
->>>>>>> feature/login
  $dbname = "a1800565";
  // Create connection
  $conn = new mysqli($servername, $username, $password, $dbname);
