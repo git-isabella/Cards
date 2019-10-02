@@ -18,10 +18,13 @@ if($_SESSION['username'] == 'username') {
  echo $row["country"] . " ";
  echo "<a href=\"delete.php?id=" . $row["id"] . "\">DELETE</a>";
  print("<br>");
+ print("<br>");
+ print("<br>");
  }
  } else {
  echo "0 results";
  }
+ print("<br>");
  print("</html>");
  mysqli_close($conn);
 } else {
